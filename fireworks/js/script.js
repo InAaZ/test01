@@ -28,4 +28,5 @@ function fireworks() {
     mull.style.width = rand + "px";
     mull.style.borderRadius = rand/2 + "px";
     mull.style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
+    mull.style.overflow = "hidden";
 }
