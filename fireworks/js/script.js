@@ -13,9 +13,9 @@ function fireworks() {
 	var mull = document.createElement("div");
 	var fw = document.getElementById("fw");
 	fw.appendChild(mull);
-	fw.style.overflow = "hidden";
-	var body = document.getElementById("body");
-	body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
+	// var body = document.getElementById("body");
+	// body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
+	document.body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
 	var uus = document.getElementById("uus");
 	uus.style.visibility = "visible";
 	var tekst = document.getElementById("start");
