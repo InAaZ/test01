@@ -14,7 +14,7 @@ function fireworks() {
 	var fw = document.getElementById("fw");
 	fw.appendChild(mull);
 	document.body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
-	var uus = document.getElementById("uus");
+	var uus = document.getElementById("new");
 	uus.style.visibility = "visible";
 	var tekst = document.getElementById("start");
 	tekst.innerHTML = "Klikin veel";

@@ -1,13 +1,13 @@
 body{
   background-color: #dbdfe2;
 }
-.place {
+#btnplace {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#uus {
+#new {
   visibility: hidden;
   position: fixed;
   top: 30%;
@@ -23,6 +23,8 @@ body{
 button {
   position: relative;
   margin: auto;
+  height: 2.6rem;
+  min-width: 70px;
   border: 3px solid transparent;
   border-radius: 100px;
   padding: 6px 20px;
@@ -52,4 +54,8 @@ button:active {
 button:focus {
   outline:0;
   box-shadow:0 0 0 .2rem rgba(0,131,186,.25)
+}
+@media (max-width: 599px)
+body {
+    line-height: 25px;
 }
