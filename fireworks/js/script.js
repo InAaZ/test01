@@ -19,7 +19,6 @@ function fireworks() {
 	var tekst = document.getElementById("start");
 	tekst.innerHTML = "Klikin veel";
     var rand = getRndInteger(20, 200);
-    mull.style.zIndex = -1;
     mull.style.position = "fixed";
     mull.style.top = getRndInteger(1, 100) + "%";
     mull.style.left = getRndInteger(1, 100) + "%";
