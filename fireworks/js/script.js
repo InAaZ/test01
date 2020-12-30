@@ -13,8 +13,6 @@ function fireworks() {
 	var mull = document.createElement("div");
 	var fw = document.getElementById("fw");
 	fw.appendChild(mull);
-	// var body = document.getElementById("body");
-	// body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
 	document.body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
 	var uus = document.getElementById("uus");
 	uus.style.visibility = "visible";
