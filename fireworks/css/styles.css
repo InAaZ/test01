@@ -55,7 +55,7 @@ button:focus {
   outline:0;
   box-shadow:0 0 0 .2rem rgba(0,131,186,.25)
 }
-@media (max-width: 599px)
+/*@media (max-width: 599px)
 body {
     line-height: 25px;
-}
+}*/
