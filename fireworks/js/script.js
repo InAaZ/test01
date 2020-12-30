@@ -13,6 +13,7 @@ function fireworks() {
 	var mull = document.createElement("div");
 	var fw = document.getElementById("fw");
 	fw.appendChild(mull);
+	fw.style.overflow = "hidden";
 	var body = document.getElementById("body");
 	body.style.backgroundColor = bcolors[Math.floor(Math.random()*bcolors.length)];
 	var uus = document.getElementById("uus");
@@ -28,5 +29,4 @@ function fireworks() {
     mull.style.width = rand + "px";
     mull.style.borderRadius = rand/2 + "px";
     mull.style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
-    mull.style.overflow = "hidden";
 }
