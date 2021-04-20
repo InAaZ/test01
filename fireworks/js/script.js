@@ -25,5 +25,7 @@ function fireworks() {
     mull.style.height = rand + "px";
     mull.style.width = rand + "px";
     mull.style.borderRadius = rand/2 + "px";
+    mull.style.marginLeft = -rand/2 + "px";
+    mull.style.marginTop = -rand/2 + "px";
     mull.style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
 }
